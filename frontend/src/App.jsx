@@ -90,7 +90,7 @@ function App() {
         </div>
       </div>
       <footer className="footer">
-        <p>Made with ❤️ by Pragati Jain</p>
+        <p>Made by Pragati Jain</p>
         <div className="tech-stack">
           <span>⚛ React</span>
           <span>🚀 Express</span>
