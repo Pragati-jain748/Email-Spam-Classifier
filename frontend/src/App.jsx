@@ -23,6 +23,7 @@ function App() {
 
 
       setPrediction(response.data.prediction);
+      setConfidence(response.data.confidence);
     }
 
     catch (error) {
