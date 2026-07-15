@@ -24,7 +24,7 @@ app.post('/predict', async (req, res) => {
     }
 
     const response = await axios.post(
-        "http://127.0.0.1:8000/predict",
+        'https://email-spam-ml-api.onrender.com/predict',
         {
             email: email
         }
