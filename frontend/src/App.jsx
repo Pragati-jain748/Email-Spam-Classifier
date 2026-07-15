@@ -17,7 +17,7 @@ function App() {
     }
     setLoading(true);
     try {
-      const response = await axios.post("http://localhost:5000/predict", { email });
+      const response = await axios.post("https://email-spam-classifier-pft3.onrender.com/predict", { email });
 
       await new Promise(resolve => setTimeout(resolve, 1000));
 
