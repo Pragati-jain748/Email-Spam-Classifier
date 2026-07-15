@@ -89,8 +89,14 @@ function App() {
           )}
         </div>
       </div>
-      <footer>
-        <p>Made with ❤️ using React • Express • FastAPI • Machine Learning</p>
+      <footer className="footer">
+        <p>Made with ❤️ by Pragati Jain</p>
+        <div className="tech-stack">
+          <span>⚛ React</span>
+          <span>🚀 Express</span>
+          <span>⚡ FastAPI</span>
+          <span>🤖 Machine Learning</span>
+        </div>
       </footer>
     </>
   )
