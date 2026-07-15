@@ -54,7 +54,7 @@ def predict_email(request: EmailRequest):
      confidence = model.predict_proba(vectorize_email).max() * 100
      
      return {
-    "prediction": "Spam" if prediction == 1 else "Ham",
+    "prediction": "Spam" if prediction[0] == 1 else "Ham",
     "confidence": round(confidence, 2)
 }
      
