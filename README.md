@@ -143,6 +143,15 @@ uvicorn app:app --reload
 
 ---
 
+## 🔗 Project Links
+
+- 🌐 Live Demo: https://email-spam-classifier-nine.vercel.app/
+- 💻 GitHub Repository: https://github.com/Pragati-jain748/Email-Spam-Classifier
+- ⚙️ Backend API: https://email-spam-classifier-pft3.onrender.com
+- 🤖 ML API: https://email-spam-ml-api.onrender.com
+
+---
+
 ## 👩‍💻 Author
 
 **Pragati Jain**
